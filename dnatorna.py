@@ -26,6 +26,7 @@ def rna(seq):
 def reverse_rna_complement(seq):
     """
     Convert a DNA sequence into its reverse complement as RNA
+    Returned sequences have same capitalization as the input sequence
     """
 
     # Determine if original was upper case
